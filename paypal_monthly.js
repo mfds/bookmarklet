@@ -1,3 +1,10 @@
+/*
+  Paypal credit monthly spending calculator
+
+  https://www.paypal.com/myaccount/ppcredit/
+
+  Calculate the amount to pay every month to avoid interest + minimum payment per month (pay in 4 months)
+*/
 (() => {
     const DEBUG = false;
     const LOG = (...args) => console.log(...args);
